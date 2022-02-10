@@ -8,7 +8,7 @@ int gcd(int a, int b) {
     else {
         min = b;
     }
-    for (int i = 1;i<(min/2);i++) {
+    for (int i = 1;i <= (min / 2);i++) {
         if (((a % i) == 0) && ((b % i) == 0))
             c = i;
     }
