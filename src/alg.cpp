@@ -1,7 +1,7 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
-    int min = 0, c = 1;;
+    int min = 0, c = 1;
     if (a < b) {
         min = a;
     }
