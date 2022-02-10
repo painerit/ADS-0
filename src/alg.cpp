@@ -1,6 +1,7 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
+    // поместить сюда текст реализации алгоритма (на С++)
     int min = 0, c = 1;
     if (a < b) {
         min = a;
